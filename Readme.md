@@ -1,6 +1,6 @@
 # Instrucciones para ejecucion
 ## Clonar repositorio:
-[git clone https://github.com/tuusuario/mi-proyecto-web.git](https://github.com/AleLoredo/PFO2DEVOPS.git)
+[git clone https://github.com/AleLoredo/PFO2DEVOPS.git](https://github.com/AleLoredo/PFO2DEVOPS.git)
 cd PFO2DEVOPS
 
 ## Construir la imagen Docker
