@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPO3 - Frontend - Consumo de APIs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TPO3 - Frontend - Consumo de APIs</h1>
+        <p>Esta es una aplicación que consume la API de JSONPlaceholder y permite cargar todos los posteos del usuario seleccionado:</p>
+        <div class="search-container">
+            <select id="userSelect">
+                <option value="">Selecciona un usuario</option>
+            </select>
+            <button onclick="getPosts()">Ver Posts</button>
+            <button onclick="loadMorePosts()">Cargar Más</button>
+            <button onclick="loadLessPosts()">Cargar Menos</button>
+        </div>
+        <div id="error" class="error"></div>
+        <div id="loading" class="loading">Cargando información</div>
+        <div id="postsGrid" class="posts-grid"></div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
